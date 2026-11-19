@@ -1,0 +1,59 @@
+body {
+  background-color: #e8ecf1;
+}
+
+.barra {
+  background-color: #d6322e;
+  border-bottom: 5px solid #1b2233;
+}
+
+.pie {
+  background-color: #1b2233;
+  color: #ffffff;
+}
+
+.filtros {
+  border: none;
+  border-top: 5px solid #d6322e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tarjeta de cada Pokémon */
+.tarjeta-pokemon {
+  height: 100%;
+  border: 2px solid #cdd4df;
+  border-radius: 14px;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.tarjeta-pokemon:hover {
+  transform: translateY(-4px);
+  border-color: #1b2233;
+}
+
+.tarjeta-pokemon img {
+  height: 150px;
+  object-fit: contain;
+  background-color: #f1f3f6;
+  border-radius: 12px 12px 0 0;
+  padding: 8px;
+}
+
+.numero {
+  font-size: 0.8rem;
+  color: #5e6a80;
+}
+
+.nombre {
+  text-transform: capitalize;
+}
+
+.stat {
+  font-size: 0.8rem;
+  margin-bottom: 2px;
+}
+
+.progress {
+  height: 8px;
+  margin-bottom: 6px;
+}
